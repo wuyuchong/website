@@ -39,20 +39,36 @@ URL = "plugins/search/search.js"
 ########################### Navigation ###################################
 
 # main menu
+
 [[menu.main]]
-URL = "contact"
-name = "Contact"
+URL = "about"
+name = "about"
 weight = 1
 
 [[menu.main]]
-URL = "tools"
-name = "tools"
+URL = "projects"
+name = "projects"
 weight = 2
 
 [[menu.main]]
-URL = "中文"
-name = "中文"
+URL = "blogs"
+name = "blogs"
 weight = 3
+
+[[menu.main]]
+URL = "tools"
+name = "resources"
+weight = 4
+
+[[menu.main]]
+URL = "contact"
+name = "contact"
+weight = 5
+
+[[menu.main]]
+URL = "https://www.wuyuchong.com"
+name = "中文"
+weight = 6
 
 # footer menu
 [[menu.footer]]
