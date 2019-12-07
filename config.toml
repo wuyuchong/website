@@ -99,7 +99,7 @@ bgImage = "images/banner/bg.png"
 enable = true
 image = "images/construction.svg"
 title = "Under Construction"
-description = "This website has just been established and still under construction"
+description = "Welcome to <br> www.yuchong.com <br> This website has just been established and still under construction"
 [params.cta.button]
 enable = false
 
