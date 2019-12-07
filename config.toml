@@ -1,5 +1,5 @@
 ############################ Default configuration #########################
-baseURL = "https://www.yu-chong.com"
+baseURL = "www.yu-chong.com"
 languageCode = "en-us"
 # site title 
 title = "Yu-chong"

@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Yu-chong</title>
-    <link>/categories/</link>
+    <link>/www.yu-chong.com/categories/</link>
     <description>Recent content in Categories on Yu-chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Nov 2019 05:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/www.yu-chong.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Design Tools</title>
-      <link>/categories/design-tools/</link>
+      <link>/www.yu-chong.com/categories/design-tools/</link>
       <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
       
-      <guid>/categories/design-tools/</guid>
+      <guid>/www.yu-chong.com/categories/design-tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development Tools</title>
-      <link>/categories/development-tools/</link>
+      <link>/www.yu-chong.com/categories/development-tools/</link>
       <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
       
-      <guid>/categories/development-tools/</guid>
+      <guid>/www.yu-chong.com/categories/development-tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>/categories/hugo/</link>
+      <link>/www.yu-chong.com/categories/hugo/</link>
       <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
       
-      <guid>/categories/hugo/</guid>
+      <guid>/www.yu-chong.com/categories/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meta Data</title>
-      <link>/categories/meta-data/</link>
+      <link>/www.yu-chong.com/categories/meta-data/</link>
       <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
       
-      <guid>/categories/meta-data/</guid>
+      <guid>/www.yu-chong.com/categories/meta-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SEO Learning</title>
-      <link>/categories/seo-learning/</link>
+      <link>/www.yu-chong.com/categories/seo-learning/</link>
       <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
       
-      <guid>/categories/seo-learning/</guid>
+      <guid>/www.yu-chong.com/categories/seo-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/categories/r/</link>
+      <link>/www.yu-chong.com/categories/r/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/categories/r/</guid>
+      <guid>/www.yu-chong.com/categories/r/</guid>
       <description></description>
     </item>
     
