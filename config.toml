@@ -1,5 +1,5 @@
 ############################ Default configuration #########################
-baseURL = "https://www.wuyuchong.com"
+baseURL = "https://www.yu-chong.com"
 languageCode = "en-us"
 # site title 
 title = "Yu-chong"
@@ -102,14 +102,12 @@ title = "Under Construction"
 description = "This website has just been established and still under construction"
 [params.cta.button]
 enable = false
-label = "Visit"
-link = "https://gethugothemes.com/shop/"
 
 [params.cta2]
 enable = true
 image = "images/chinese.svg"
 title = "中文"
-description = "Visit www.wuyuchong.com for the Chinese version"
+description = "www.wuyuchong.com <br> for the Chinese version"
 [params.cta2.button]
 enable = true
 label = "中文版"
