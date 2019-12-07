@@ -1,5 +1,5 @@
 ############################ Default configuration #########################
-baseURL = "https://www.wuyuchong.com/"
+baseURL = "https://www.wuyuchong.com"
 languageCode = "en-us"
 # site title 
 title = "Yu-chong"
@@ -49,16 +49,16 @@ URL = "tools"
 name = "tools"
 weight = 2
 
+[[menu.main]]
+URL = "中文"
+name = "中文"
+weight = 3
+
 # footer menu
 [[menu.footer]]
-URL = "contact"
-name = "Contact"
+URL = "中文"
+name = "中文"
 weight = 1
-
-[[menu.footer]]
-URL = "tools"
-name = "tools"
-weight = 2
 
 
 ######################### Default Parameters ###########################
@@ -74,8 +74,10 @@ description = "Yu-chong's personal website"
 googleAnalitycsID = "Your ID"
 # contact form action
 contactFormAction = "#" # contact form works with : https://formspree.io
+
 # copyright
-copyright = "&copy; 2019 [Yu-chong](https://www.yu-chong.com) All Rights Reserved"
+[params.footer]
+copyright = "&copy; 2019 [www.yu-chong.com](https://www.yu-chong.com) All Rights Reserved"
 
 # preloader
 [params.preloader]
@@ -90,19 +92,28 @@ enable = true
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/bg.png"
-title = ""
 
 
 ######################## call to action ###############################
 [params.cta]
 enable = true
-image = "images/hugo-muscot.svg"
-title = "Get the best hugo templates"
-description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+image = "images/construction.svg"
+title = "Under Construction"
+description = "This website has just been established and still under construction"
 [params.cta.button]
-enable = true
-label = "Visit Here"
+enable = false
+label = "Visit"
 link = "https://gethugothemes.com/shop/"
+
+[params.cta2]
+enable = true
+image = "images/chinese.svg"
+title = "中文"
+description = "Visit www.wuyuchong.com for the Chinese version"
+[params.cta2.button]
+enable = true
+label = "中文版"
+link = "https://www.wuyuchong.com"
 
 
 ############################## Social Site ##########################
