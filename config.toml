@@ -96,12 +96,12 @@ title = ""
 ######################## call to action ###############################
 [params.cta]
 enable = true
-image = "images/hugo-muscot.svg"
-title = "Get the best hugo templates"
-description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+image = "images/construction.svg"
+title = "Under Construction"
+description = "This website has just been established and still under construction"
 [params.cta.button]
 enable = true
-label = "Visit Here"
+label = "Visit"
 link = "https://gethugothemes.com/shop/"
 
 
