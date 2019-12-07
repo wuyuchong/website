@@ -89,8 +89,8 @@ enable = true
 
 ####################### banner #######################################
 [params.banner]
-bgImage = "images/banner/bg.jpg"
-title = "Welcome"
+bgImage = "images/banner/bg.png"
+title = ""
 
 
 ######################## call to action ###############################
