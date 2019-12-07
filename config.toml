@@ -68,14 +68,14 @@ home = "Home"
 # logo
 logo = "images/logo.svg"
 # meta data
-author = "Themefisher"
-description = "This is meta description"
+author = "Yu-chong"
+description = "Yu-chong's personal website"
 # google analitycs ID
 googleAnalitycsID = "Your ID"
 # contact form action
 contactFormAction = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "&copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved"
+copyright = "&copy; 2019 [Yu-chong](https://www.yu-chong.com) All Rights Reserved"
 
 # preloader
 [params.preloader]
@@ -89,9 +89,8 @@ enable = true
 
 ####################### banner #######################################
 [params.banner]
-bgImage = "images/banner/banner-bg.svg"
-title = "Hi, I'm John Smith Doe. <br> I help people make the  worlds best software"
-image = "images/banner/illustration.svg"
+bgImage = "images/banner/bg.png"
+title = ""
 
 
 ######################## call to action ###############################
