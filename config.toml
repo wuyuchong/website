@@ -1,5 +1,5 @@
 ############################ Default configuration #########################
-baseURL = "https://www.wuyuchong.com/"
+baseURL = "https://www.wuyuchong.com"
 languageCode = "en-us"
 # site title 
 title = "Yu-chong"
@@ -100,9 +100,19 @@ image = "images/construction.svg"
 title = "Under Construction"
 description = "This website has just been established and still under construction"
 [params.cta.button]
-enable = true
+enable = false
 label = "Visit"
 link = "https://gethugothemes.com/shop/"
+
+[params.cta2]
+enable = true
+image = "images/chinese.svg"
+title = "中文"
+description = "Visit www.wuyuchong.com for the Chinese version"
+[params.cta2.button]
+enable = true
+label = "中文版"
+link = "https://www.wuyuchong.com"
 
 
 ############################## Social Site ##########################
