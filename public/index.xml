@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yu-chong</title>
-    <link>/www.yu-chong.com/</link>
+    <link>/</link>
     <description>Recent content on Yu-chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Nov 2019 05:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/www.yu-chong.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My awesome blog post</title>
-      <link>/www.yu-chong.com/my-awesome-blog-post.1/</link>
+      <link>/my-awesome-blog-post.1/</link>
       <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
       
-      <guid>/www.yu-chong.com/my-awesome-blog-post.1/</guid>
-      <description>Are you Developer and recently started your own business and Already made a website to ensure online presence and wants to reach more people.</description>
-    </item>
-    
-    <item>
-      <title>My awesome blog post</title>
-      <link>/www.yu-chong.com/my-awesome-blog-post.2/</link>
-      <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
-      
-      <guid>/www.yu-chong.com/my-awesome-blog-post.2/</guid>
+      <guid>/my-awesome-blog-post.1/</guid>
       <description>Are you Developer and recently started your own business and Already made a website to ensure online presence and wants to reach more people.</description>
     </item>
     
     <item>
       <title>My awesome blog post</title>
-      <link>/www.yu-chong.com/my-awesome-blog-post.3/</link>
+      <link>/my-awesome-blog-post.2/</link>
       <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
       
-      <guid>/www.yu-chong.com/my-awesome-blog-post.3/</guid>
+      <guid>/my-awesome-blog-post.2/</guid>
       <description>Are you Developer and recently started your own business and Already made a website to ensure online presence and wants to reach more people.</description>
     </item>
     
     <item>
       <title>My awesome blog post</title>
-      <link>/www.yu-chong.com/my-awesome-blog-post.4/</link>
+      <link>/my-awesome-blog-post.3/</link>
       <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
       
-      <guid>/www.yu-chong.com/my-awesome-blog-post.4/</guid>
+      <guid>/my-awesome-blog-post.3/</guid>
       <description>Are you Developer and recently started your own business and Already made a website to ensure online presence and wants to reach more people.</description>
     </item>
     
     <item>
       <title>My awesome blog post</title>
-      <link>/www.yu-chong.com/my-awesome-blog-post/</link>
+      <link>/my-awesome-blog-post.4/</link>
       <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
       
-      <guid>/www.yu-chong.com/my-awesome-blog-post/</guid>
+      <guid>/my-awesome-blog-post.4/</guid>
+      <description>Are you Developer and recently started your own business and Already made a website to ensure online presence and wants to reach more people.</description>
+    </item>
+    
+    <item>
+      <title>My awesome blog post</title>
+      <link>/my-awesome-blog-post/</link>
+      <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
+      
+      <guid>/my-awesome-blog-post/</guid>
       <description>Are you Developer and recently started your own business and Already made a website to ensure online presence and wants to reach more people.</description>
     </item>
     
     <item>
       <title>My awesome second blog post</title>
-      <link>/www.yu-chong.com/my-awesome-blog-post-2/</link>
+      <link>/my-awesome-blog-post-2/</link>
       <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
       
-      <guid>/www.yu-chong.com/my-awesome-blog-post-2/</guid>
+      <guid>/my-awesome-blog-post-2/</guid>
       <description>Are you Developer and recently started your own business and Already made a website to ensure online presence and wants to reach more people.</description>
     </item>
     
     <item>
       <title>My awesome second blog post</title>
-      <link>/www.yu-chong.com/my-awesome-blog-post-3/</link>
+      <link>/my-awesome-blog-post-3/</link>
       <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
       
-      <guid>/www.yu-chong.com/my-awesome-blog-post-3/</guid>
+      <guid>/my-awesome-blog-post-3/</guid>
       <description>Are you Developer and recently started your own business and Already made a website to ensure online presence and wants to reach more people.</description>
     </item>
     
     <item>
       <title>My awesome second blog post</title>
-      <link>/www.yu-chong.com/my-awesome-blog-post-4/</link>
+      <link>/my-awesome-blog-post-4/</link>
       <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
       
-      <guid>/www.yu-chong.com/my-awesome-blog-post-4/</guid>
+      <guid>/my-awesome-blog-post-4/</guid>
       <description>Are you Developer and recently started your own business and Already made a website to ensure online presence and wants to reach more people.</description>
     </item>
     
     <item>
       <title>My awesome second blog post</title>
-      <link>/www.yu-chong.com/my-awesome-blog-post-5/</link>
+      <link>/my-awesome-blog-post-5/</link>
       <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
       
-      <guid>/www.yu-chong.com/my-awesome-blog-post-5/</guid>
+      <guid>/my-awesome-blog-post-5/</guid>
       <description>Are you Developer and recently started your own business and Already made a website to ensure online presence and wants to reach more people.</description>
     </item>
     
     <item>
       <title>My awesome second blog post</title>
-      <link>/www.yu-chong.com/my-awesome-blog-post-6/</link>
+      <link>/my-awesome-blog-post-6/</link>
       <pubDate>Thu, 07 Nov 2019 05:00:00 +0000</pubDate>
       
-      <guid>/www.yu-chong.com/my-awesome-blog-post-6/</guid>
+      <guid>/my-awesome-blog-post-6/</guid>
       <description>Are you Developer and recently started your own business and Already made a website to ensure online presence and wants to reach more people.</description>
     </item>
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/www.yu-chong.com/post/2015-07-23-r-rmarkdown/</link>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/www.yu-chong.com/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.</description>
     </item>
     
     <item>
       <title>John Doe</title>
-      <link>/www.yu-chong.com/author/john-doe/</link>
+      <link>/author/john-doe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/www.yu-chong.com/author/john-doe/</guid>
+      <guid>/author/john-doe/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     
     <item>
       <title>Mark Dinn</title>
-      <link>/www.yu-chong.com/author/mark-dinn/</link>
+      <link>/author/mark-dinn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/www.yu-chong.com/author/mark-dinn/</guid>
+      <guid>/author/mark-dinn/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     
