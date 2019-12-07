@@ -74,8 +74,10 @@ description = "Yu-chong's personal website"
 googleAnalitycsID = "Your ID"
 # contact form action
 contactFormAction = "#" # contact form works with : https://formspree.io
+
 # copyright
-copyright = "&copy; 2019 [Yu-chong](https://www.yu-chong.com) All Rights Reserved"
+[params.footer]
+copyright = "&copy; 2019 [www.yu-chong.com](https://www.yu-chong.com) All Rights Reserved"
 
 # preloader
 [params.preloader]
@@ -90,7 +92,6 @@ enable = true
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/bg.png"
-title = ""
 
 
 ######################## call to action ###############################
