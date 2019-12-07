@@ -2,7 +2,7 @@
 baseURL = "https://www.wuyuchong.com/"
 languageCode = "en-us"
 # site title 
-title = "Northendlab | Blog Template"
+title = "Yu-chong"
 # theme
 theme = "northendlab-hugo"
 # post pagination
