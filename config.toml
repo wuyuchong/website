@@ -3,6 +3,7 @@ baseURL = "https://www.yu-chong.com"
 languageCode = "en-us"
 # site title 
 title = "Yu-chong"
+description: "Personal Website of Yuchong Wu"
 # theme
 theme = "northendlab-hugo"
 # post pagination
