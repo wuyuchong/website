@@ -16,29 +16,91 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ***
 
-## Education
+## EDUCATION
 
 ### Central University of Finance and Economics
 
-<div align="right">Sep.2017 - June.2021</div>
+<div align="right">Sep 2017 - Jun 2021</div>
 
-主修：经济统计学
+<div align="right">Beijing, China</div>
 
-辅修：金融学
+Subject: Economic Statistics
 
-+ 相关课程：python程序设计、c和c++语言程序设计、高级商务英语、金融学、民商法、宏观与微观经济学、会计学、概率与数理统计、统计计算等
-+ 中央财经大学商学院大数据菁英班：使用R语言进行大数据分析及撰写商业报告
+Minor: Finance
 
-***
++ Related courses: python programming, c and c++ programming, Advanced Business English, Finance, Civil and Commercial Law, macro and micro economics, accounting, probability and mathematical statistics, statistical computing, etc.
++ Big Data analysis program: using the R language to deal with large data and  writing business reports.
 
-## Internship
+### University of Michigan
 
-internship
+<div align="right">Jul 2019 - Sep 2019</div>
 
-## Research
+<div align="right">Ann Arbor, USA</div>
 
-## Leadership
+Summer Program in Quantitative Methods of Social Research
 
-## Certifications
++ Course Grade: Regression Analysis II (A) Categorical Data Analysis (A+)
 
-## Skills
+### Uppsala University
+
+<div align="right">Sep 2019 - Jan 2020</div>
+
+<div align="right">Uppsala, Sweden</div>
+
+Exchange Program for one semester
+
+## INTERNSHIP
+
+### M & A FOF Investment Center（ZRC Capital） 
+
+<div align="right">May 2019 - Sep 2019</div>
+
+<div align="right">Beijing, China</div>
+
+Industry Research and Data Analysis
+
+
+## PROJECT
+
+### SEM (Search Engine Marketing) Business Analysis
+
+### National Innovation Project for university students
+
++ A Comparative Study of Personnel Placement in the Reform of Government Institutions
+
+
+## ORGANISATION
+
+### Official WeChat Team of Central University of Finance and Economics
+
+<div align="right">Sep 2018 - Sep 2019</div>
+
+<div align="right">Beijing</div>
+
+Minister of administration
+
+## HONORS & AWARDS
+
+
+
+##  SKILLS / CERTIFICATES AND OTHER
+
+### Skill
+
+word/excel/ppt (proficient)
+
+R (proficiency)
+
+Python (basic)
+
+C/C++ (base)  
+
+SPSS (basic)
+
+### Activities
+
+Violin (Level 8)  
+
+Singing (TOP25 in Central University of Finance and Economics Singing Contest)  
+
+Calligraphy
