@@ -2,61 +2,17 @@
 ######################### tools #########################################
 tools:
   # tool category
-- title: Design Tools
+- title: Academic
   tool:
-    # tool loop in tool category
-  - name: WP Fluent Forms Pro Add-On & Most Powerful WordPress Form Plugin
-    image: "/images/tools/tool2.png"
-    link: "#"
-    # tool loop in tool category
-  - name: WP Fluent Forms Pro Add-On & Most Powerful WordPress Form Plugin
-    image: "/images/tools/tool4.png"
-    link: "#"
-    # tool loop in tool category
-  - name: WP Fluent Forms Pro Add-On & Most Powerful WordPress Form Plugin
-    image: "/images/tools/tool4.png"
-    link: "#"
-    # tool loop in tool category
-  - name: WP Fluent Forms Pro Add-On & Most Powerful WordPress Form Plugin
-    image: "/images/tools/tool3.png"
-    link: "#"
-    # tool loop in tool category
-
-    
-  # tool category
-- title: SEO Tools
-  tool:
-    # tool loop in tool category
-  - name: WP Fluent Forms Pro Add-On & Most Powerful WordPress Form Plugin
-    image: "/images/tools/tool3.png"
-    link: "#"
-    # tool loop in tool category
-  - name: WP Fluent Forms Pro Add-On & Most Powerful WordPress Form Plugin
-    image: "/images/tools/tool2.png"
-    link: "#"
-    # tool loop in tool category
-  - name: WP Fluent Forms Pro Add-On & Most Powerful WordPress Form Plugin
-    image: "/images/tools/tool1.png"
-    link: "#"
-    # tool loop in tool category
-
-    
-  # tool category
-- title: Dev Tools
-  tool:
-    # tool loop in tool category
-  - name: WP Fluent Forms Pro Add-On & Most Powerful WordPress Form Plugin
-    image: "/images/tools/tool4.png"
-    link: "#"
-    # tool loop in tool category
-  - name: WP Fluent Forms Pro Add-On & Most Powerful WordPress Form Plugin
-    image: "/images/tools/tool1.png"
-    link: "#"
-    # tool loop in tool category
-  - name: WP Fluent Forms Pro Add-On & Most Powerful WordPress Form Plugin
-    image: "/images/tools/tool3.png"
-    link: "#"
-    # tool loop in tool category
-  - name: WP Fluent Forms Pro Add-On & Most Powerful WordPress Form Plugin
-    image: "/images/tools/tool2.png"
-    link: "#"
+  - name: Online Latex Editor
+    image: "/images/tools/overleaf.png"
+    link: "https://www.overleaf.com"
+  - name: Extract LaTeX from PDFs or handwritten notes
+    image: "/images/tools/mathpix.png"
+    link: "https://www.mathpix.com"
+  - name: Using Rstudio Online
+    image: "/images/tools/rstudiocloud.png"
+    link: "https://rstudio.cloud"
+  - name: Writing Assistant for non-native speaker
+    image: "/images/tools/grammaly.png"
+    link: "https://www.grammarly.com"

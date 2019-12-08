@@ -57,7 +57,7 @@ weight = 3
 
 [[menu.main]]
 URL = "tools"
-name = "resources"
+name = "Recommendation"
 weight = 4
 
 [[menu.main]]
