@@ -16,3 +16,14 @@ tools:
   - name: Writing Assistant for non-native speaker
     image: "/images/tools/grammaly.png"
     link: "https://www.grammarly.com"
+
+  # tool category
+- title: Cheatsheet
+  tool:
+  - name: Git Cheat Sheet
+    image: "/images/tools/gitcheatsheet.png"
+    link: "https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
+  - name: Rstudio Cheat Sheets
+    image: "/images/tools/rcheatsheet.png"
+    link: "https://rstudio.com/resources/cheatsheets/"
+
