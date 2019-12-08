@@ -87,7 +87,7 @@ logo = "images/logo.svg"
 author = "Yu-chong"
 description = "Yu-chong's personal website"
 # google analitycs ID
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "UA-154227155-1"
 # contact form action
 contactFormAction = "#" # contact form works with : https://formspree.io
 
