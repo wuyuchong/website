@@ -91,7 +91,7 @@ description = "Yu-chong's personal website"
 # google analitycs ID
 googleAnalitycsID = "UA-154227155-1"
 # contact form action
-contactFormAction = "#" # contact form works with : https://formspree.io
+contactFormAction = "https://formspree.io/mjvkjpww" # contact form works with : https://formspree.io
 
 # copyright
 [params.footer]
