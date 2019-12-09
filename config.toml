@@ -74,9 +74,15 @@ weight = 6
 
 # footer menu
 [[menu.footer]]
+URL = "contact"
+name = "Leave a message"
+weight = 1
+
+# footer menu
+[[menu.footer]]
 URL = "中文"
 name = "中文"
-weight = 1
+weight = 2
 
 
 ######################### Default Parameters ###########################
