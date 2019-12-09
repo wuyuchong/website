@@ -91,13 +91,13 @@ Minister of administration
 
 ### Skill
 
-word/excel/ppt (proficient)
+word / exce l/ ppt (proficient)
 
-R (proficiency)
+R (proficient)
 
 Python (basic)
 
-C/C++ (base)  
+C / C++ (basic)  
 
 SPSS (basic)
 
