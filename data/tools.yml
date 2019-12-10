@@ -10,12 +10,26 @@ tools:
   - name: Extract LaTeX from PDFs or handwritten notes
     image: "/images/tools/mathpix.png"
     link: "https://www.mathpix.com"
-  - name: Using Rstudio Online
-    image: "/images/tools/rstudiocloud.png"
-    link: "https://rstudio.cloud"
   - name: Writing Assistant for non-native speaker
     image: "/images/tools/grammaly.png"
     link: "https://www.grammarly.com"
+
+  # tool category
+- title: Programming
+  tool:
+  - name: Using Rstudio Online
+    image: "/images/tools/rstudiocloud.png"
+    link: "https://rstudio.cloud"
+  - name: Online Markdown Editor with Real-time Preview and Collaboration
+    image: "/images/tools/rstudiocloud.png"
+    link: "https://rstudio.cloud"
+    
+  # tool category
+- title: Visual
+  tool:
+  - name: Compress Photos with little loss
+    image: "/images/tools/compress.png"
+    link: "https://imagecompressor.com"
 
   # tool category
 - title: Cheatsheet
@@ -26,4 +40,7 @@ tools:
   - name: Rstudio Cheat Sheets
     image: "/images/tools/rcheatsheet.png"
     link: "https://rstudio.com/resources/cheatsheets/"
-
+    
+    
+    
+    
