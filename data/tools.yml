@@ -17,11 +17,11 @@ tools:
   # tool category
 - title: Programming
   tool:
-  - name: Using Rstudio Online
+  - name: Coding Online for R language
     image: "/images/tools/rstudiocloud.png"
     link: "https://rstudio.cloud"
   - name: Online Markdown Editor with Real-time Preview and Collaboration
-    image: "/images/tools/rstudiocloud.png"
+    image: "/images/tools/hackmd.png"
     link: "https://rstudio.cloud"
     
   # tool category
@@ -34,10 +34,10 @@ tools:
   # tool category
 - title: Cheatsheet
   tool:
-  - name: Git Cheat Sheet
+  - name: Cheat Sheet for Git
     image: "/images/tools/gitcheatsheet.png"
     link: "https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
-  - name: Rstudio Cheat Sheets
+  - name: Cheat Sheets for R
     image: "/images/tools/rcheatsheet.png"
     link: "https://rstudio.com/resources/cheatsheets/"
     
