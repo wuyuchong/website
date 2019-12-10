@@ -22,7 +22,7 @@ tools:
     link: "https://rstudio.cloud"
   - name: Online Markdown Editor with Real-time Preview and Collaboration
     image: "/images/tools/hackmd.png"
-    link: "https://rstudio.cloud"
+    link: "https://hackmd.io"
     
   # tool category
 - title: Visual
