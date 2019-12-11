@@ -1,7 +1,7 @@
 ---
 ######################### tools #########################################
 tools:
-  # tool category
+
 - title: Academic
   tool:
   - name: Online Latex Editor
@@ -13,25 +13,38 @@ tools:
   - name: Writing Assistant for non-native speaker
     image: "/images/tools/grammaly.png"
     link: "https://www.grammarly.com"
+  - name: Online Markdown Editor with Real-time Preview and Collaboration
+    image: "/images/tools/hackmd.png"
+    link: "https://hackmd.io"
 
-  # tool category
-- title: Programming
+- title: R
   tool:
   - name: Coding Online for R language
     image: "/images/tools/rstudiocloud.png"
     link: "https://rstudio.cloud"
-  - name: Online Markdown Editor with Real-time Preview and Collaboration
-    image: "/images/tools/hackmd.png"
-    link: "https://hackmd.io"
+  - name: R Codes for Beautiful Plots
+    image: "/images/tools/gallery.png"
+    link: "https://www.r-graph-gallery.com/index.html"
+  - name: Cheat Sheets for R
+    image: "/images/tools/rcheatsheet.png"
+    link: "https://rstudio.com/resources/cheatsheets/"
     
-  # tool category
-- title: Visual
+- title: Python
+  tool:
+  - name: Create & Share documents with live code, equations, visualizations and text.
+    image: "/images/tools/jupyter.png"
+    link: "https://jupyter.org/index.html"
+  - name: Python Codes for Beautiful Plots
+    image: "/images/tools/gallery.png"
+    link: "https://python-graph-gallery.com"
+    
+    
+- title: Tools
   tool:
   - name: Compress Photos with little loss
     image: "/images/tools/compress.png"
     link: "https://imagecompressor.com"
 
-  # tool category
 - title: Cheatsheet
   tool:
   - name: Cheat Sheet for Git
