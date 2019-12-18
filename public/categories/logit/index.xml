@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>logit on Yu-chong</title>
+    <link>/categories/logit/</link>
+    <description>Recent content in logit on Yu-chong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/logit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vote Prediction using Logit model</title>
+      <link>/projects/vote/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/vote/</guid>
+      <description>Presentation
+ Abstract In this study, we tried to figure out what variables impact the choice of voting for the Social Democratic Party of Sweden as well as their effects.</description>
+    </item>
+    
+  </channel>
+</rss>

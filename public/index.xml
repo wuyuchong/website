@@ -6,10 +6,20 @@
     <description>Recent content on Yu-chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vote Prediction using Logit model</title>
+      <link>/projects/vote/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/vote/</guid>
+      <description>Presentation
+ Abstract In this study, we tried to figure out what variables impact the choice of voting for the Social Democratic Party of Sweden as well as their effects.</description>
+    </item>
     
     <item>
       <title>My exchange experience</title>
@@ -41,11 +51,11 @@
     
     <item>
       <title></title>
-      <link>/reveal/reveals/</link>
+      <link>/presentation/vote/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/reveal/reveals/</guid>
-      <description>Principles of Reactivity a.sourceLine { display: inline-block; line-height: 1.</description>
+      <guid>/presentation/vote/</guid>
+      <description>Vote for Democrats a.sourceLine { display: inline-block; line-height: 1.</description>
     </item>
     
   </channel>

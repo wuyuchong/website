@@ -1,0 +1,30 @@
+---
+title: "Vote Prediction using Logit model"
+description: Vote Prediction using Logit model
+author: Claes Kock, Mayara Latrech, Yuchong Wu
+date: 2019-12-18
+categories: ["R", "logit", "regression"]
+tags: ["R", "logit", "regression"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+***
+
+<center>
+
+[**Presentation**](../../presentation/vote)
+
+</center>
+
+***
+
+# Abstract
+
+In this study, we tried to figure out what variables impact the choice of voting for the Social Democratic Party of Sweden as well as their effects. The study is based on a dataset from the European Social Survey from 2006. We selected 4 Likert variables. Then we established Logit and Probit models and found that most of our variables were significant and constant scale, except for one. 
+
+The accuracy of our logit model was 61.1%, while the accuracy of our probit model was slightly higher, at 61.3%. Thus, we conclude that the probit model is better than the logit model, but the difference is very small.
+
+
