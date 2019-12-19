@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Factor Analysis on Yu-chong</title>
+    <link>/tags/factor-analysis/</link>
+    <description>Recent content in Factor Analysis on Yu-chong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/factor-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Factor Analysis for Anxiety</title>
+      <link>/projects/factor/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/factor/</guid>
+      <description>Presentation
+ Description Group Assignment for Applied Statistical Methods course in Uppsala University, Sweden.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -8,12 +8,27 @@
   </url>
   
   <url>
-    <loc>/categories/logit/</loc>
+    <loc>/categories/factor-analysis/</loc>
+    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/factor-analysis/</loc>
+    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/factor/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/logit/</loc>
+    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/logit/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,6 +58,16 @@
   </url>
   
   <url>
+    <loc>/tags/structural-equation-model/</loc>
+    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/structural-equation-model/</loc>
+    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url>
@@ -68,12 +93,12 @@
   </url>
   
   <url>
-    <loc>/tags/personal/</loc>
+    <loc>/categories/personal/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/personal/</loc>
+    <loc>/tags/personal/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -125,6 +150,11 @@
   <url>
     <loc>/tags/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/presentation/factor/</loc>
+    <priority>0</priority>
   </url>
   
   <url>

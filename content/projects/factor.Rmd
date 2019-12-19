@@ -1,0 +1,28 @@
+---
+title: "Factor Analysis for Anxiety"
+description: Factor Analysis for Anxiety
+author: Claes Kock, Mayara Latrech, Yuchong Wu
+date: 2019-12-18
+categories: ["R", "Factor Analysis", "Structural Equation Model"]
+tags: ["R", "Factor Analysis", "Structural Equation Model"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+***
+
+<center>
+
+[**Presentation**](../../presentation/factor)
+
+</center>
+
+***
+
+# Description
+
+Group Assignment for Applied Statistical Methods course in Uppsala University, Sweden.
+
+

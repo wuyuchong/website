@@ -12,13 +12,23 @@
     
     
     <item>
+      <title>Factor Analysis for Anxiety</title>
+      <link>/projects/factor/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/factor/</guid>
+      <description>Presentation
+ Description Group Assignment for Applied Statistical Methods course in Uppsala University, Sweden.</description>
+    </item>
+    
+    <item>
       <title>Vote Prediction using Logit model</title>
       <link>/projects/vote/</link>
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/projects/vote/</guid>
       <description>Presentation
- Abstract In this study, we tried to figure out what variables impact the choice of voting for the Social Democratic Party of Sweden as well as their effects.</description>
+ Description Group Assignment for Applied Statistical Methods course in Uppsala University, Sweden.</description>
     </item>
     
   </channel>
