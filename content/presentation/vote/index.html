@@ -880,9 +880,46 @@ Logit Model
 </tbody>
 </table>
 </section></section>
-<section><section id="likelihood-ratio-test" class="title-slide slide level1"><h1>Likelihood Ratio-test</h1></section><section id="comparison-between-observed-and-expected" class="slide level2">
-<h2>Comparison between observed and expected</h2>
-<p>Logit accuracy = 61.1%</p>
+<section><section id="likelihood-ratio-test" class="title-slide slide level1"><h1>Likelihood Ratio-test</h1></section><section id="likelihood-ratio-test-1" class="slide level2">
+<h2>Likelihood Ratio-test</h2>
+<p>Break up variables into dummies and perform tests</p>
+<table>
+<caption>LR-Tests</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Variable</th>
+<th style="text-align: right;">p_value</th>
+<th style="text-align: left;">Reject</th>
+<th style="text-align: left;">Constant_scale</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">PoInt</td>
+<td style="text-align: right;">0.27</td>
+<td style="text-align: left;">no</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">TradeUn</td>
+<td style="text-align: right;">0.72</td>
+<td style="text-align: left;">no</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FamSize</td>
+<td style="text-align: right;">0.36</td>
+<td style="text-align: left;">no</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Area</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">No</td>
+</tr>
+</tbody>
+</table>
 </section><section id="probit-model" class="slide level2">
 <h2>Probit Model</h2>
 <table>
@@ -924,6 +961,50 @@ Logit Model
 </table>
 </section><section id="best-model" class="slide level2">
 <h2>Best model?</h2>
+<table>
+<caption>Predicted and observed values for Logit model</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Obs. 0</th>
+<th style="text-align: right;">Obs. 1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pred 0</td>
+<td style="text-align: right;">711</td>
+<td style="text-align: right;">177</td>
+</tr>
+<tr class="even">
+<td>Pred 1</td>
+<td style="text-align: right;">583</td>
+<td style="text-align: right;">295</td>
+</tr>
+</tbody>
+</table>
+<table>
+<caption>Predicted and observed values for Probit model</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Obs. 0</th>
+<th style="text-align: right;">Obs. 1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pred 0</td>
+<td style="text-align: right;">818</td>
+<td style="text-align: right;">207</td>
+</tr>
+<tr class="even">
+<td>Pred 1</td>
+<td style="text-align: right;">476</td>
+<td style="text-align: right;">265</td>
+</tr>
+</tbody>
+</table>
 <p>Logit accuracy = 61.1%</p>
 <p>Probit accuract = 61.3%</p>
 <p>A small difference of 0.02%</p>
