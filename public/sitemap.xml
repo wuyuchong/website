@@ -93,22 +93,22 @@
   </url>
   
   <url>
-    <loc>/categories/personal/</loc>
-    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/personal/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/university/</loc>
+    <loc>/categories/personal/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/university/</loc>
+    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/university/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -163,7 +163,21 @@
   </url>
   
   <url>
+    <loc>/special/birthday/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/special/girlfriend/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/presentation/</loc>
+  </url>
+  
+  <url>
+    <loc>/special/</loc>
   </url>
   
 </urlset>

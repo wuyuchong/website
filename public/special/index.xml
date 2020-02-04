@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Specials on Yu-chong</title>
+    <link>/special/</link>
+    <description>Recent content in Specials on Yu-chong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/special/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/special/birthday/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/special/birthday/</guid>
+      <description>Happy Birthday To FanYibo     Hello World To : 小闹    &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/special/girlfriend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/special/girlfriend/</guid>
+      <description> Valentine                           </description>
+    </item>
+    
+  </channel>
+</rss>

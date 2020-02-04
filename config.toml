@@ -92,8 +92,8 @@ home = "Home"
 # logo
 logo = "images/logo.svg"
 # meta data
-author = "Yu-chong"
-description = "Yu-chong's personal website"
+author = "Yuchong Wu"
+description = "Personal Website of Yuchong Wu"
 # google analitycs ID
 googleAnalitycsID = "UA-154227155-1"
 # contact form action
@@ -101,7 +101,7 @@ contactFormAction = "https://formspree.io/mjvkjpww" # contact form works with : 
 
 # copyright
 [params.footer]
-copyright = "&copy; 2019 [www.yu-chong.com](https://www.yu-chong.com) All Rights Reserved"
+copyright = "&copy; 2019-2020 [www.yu-chong.com](https://www.yu-chong.com) All Rights Reserved"
 
 # preloader
 [params.preloader]
