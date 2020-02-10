@@ -3,17 +3,127 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blogs/</loc>
+    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/mac/</loc>
+    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/mac/</loc>
+    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blogs/mac/</loc>
+    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/%E6%8E%A8%E8%8D%90/</loc>
+    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/%E6%8E%A8%E8%8D%90/</loc>
+    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/a-share/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/a-share/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/investment/pig/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/investment/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/investment/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/investment/</loc>
+    <lastmod>2020-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/investment/intcomedical/</loc>
+    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/vba/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/vba/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blogs/vba/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/factor-analysis/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/factor-analysis/</loc>
-    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/factor-analysis/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -38,22 +148,22 @@
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/r/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/regression/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/regression/</loc>
+    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/regression/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,47 +178,32 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/projects/vote/</loc>
     <lastmod>2019-12-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blogs/</loc>
+    <loc>/tags/%E4%B8%AA%E4%BA%BA/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blogs/2019-12-07/</loc>
+    <loc>/categories/%E4%B8%AA%E4%BA%BA/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/personal/</loc>
+    <loc>/tags/%E5%A4%A7%E5%AD%A6/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/personal/</loc>
+    <loc>/categories/%E5%A4%A7%E5%AD%A6/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/university/</loc>
-    <lastmod>2019-12-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/university/</loc>
+    <loc>/blogs/exchange/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -178,6 +273,10 @@
   
   <url>
     <loc>/special/</loc>
+  </url>
+  
+  <url>
+    <loc>/disclaimer/</loc>
   </url>
   
 </urlset>

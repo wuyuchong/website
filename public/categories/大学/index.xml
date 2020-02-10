@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>大学 on Yu-chong</title>
+    <link>/categories/%E5%A4%A7%E5%AD%A6/</link>
+    <description>Recent content in 大学 on Yu-chong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/%E5%A4%A7%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>我的学期交换经历</title>
+      <link>/blogs/exchange/</link>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/exchange/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

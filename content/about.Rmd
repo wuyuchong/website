@@ -22,6 +22,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## EDUCATION
 
+***
+
 ### Central University of Finance and Economics
 
 <div align="right">Sep 2017 - Jun 2021</div>
@@ -55,6 +57,8 @@ Exchange Program for one semester
 
 ## INTERNSHIP
 
+***
+
 ### M & A FOF Investment Center（ZRC Capital） 
 
 <div align="right">May 2019 - Sep 2019</div>
@@ -66,6 +70,8 @@ Industry Research and Data Analysis
 
 ## PROJECT
 
+***
+
 ### SEM (Search Engine Marketing) Business Analysis
 
 ### National Innovation Project for university students
@@ -74,6 +80,8 @@ Industry Research and Data Analysis
 
 
 ## ORGANISATION
+
+***
 
 ### Official WeChat Team of Central University of Finance and Economics
 
@@ -85,9 +93,13 @@ Minister of administration
 
 ## HONORS & AWARDS
 
+***
+
 
 
 ##  SKILLS / CERTIFICATES AND OTHER
+
+***
 
 ### Skill
 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>推荐 on Yu-chong</title>
+    <link>/tags/%E6%8E%A8%E8%8D%90/</link>
+    <description>Recent content in 推荐 on Yu-chong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/%E6%8E%A8%E8%8D%90/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mac工具推荐</title>
+      <link>/blogs/mac/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/mac/</guid>
+      <description>硬盘空间清理 软件用于扫描硬盘后，按顺序列出所有目录占用的空间大小，方便用户手动删除。
+ omnidisksweeper
+ 进入后，在 network 下，一般占用空间最大的那块硬盘为常用硬盘。
+ 在 users - (用户名) -library 下为各个应用的额外占用空间，可按实际情况删除。</description>
+    </item>
+    
+  </channel>
+</rss>

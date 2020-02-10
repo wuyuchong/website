@@ -1,0 +1,10 @@
+﻿ActiveCell,当前活动单元格
+ActiveChart,当前活动工作簿中的活动图表
+ActiveSheet,当前活动工作簿中的活动工作表
+ActiveWindow,当前活动窗口
+ActiveWorkbook,当前活动工作簿
+Charts,当前活动工作簿中所有的图表工作表
+Selection,当前活动工作簿中所有选中的对象
+Sheets,当前活动工作簿中所有Sheet对象，包括普通工作表、图表工作表
+Worksheets,当前活动工作簿中的所有Worksheet对象（普通工作表）
+Workbooks,当前所有打开的工作簿”

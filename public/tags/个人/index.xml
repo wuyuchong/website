@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>个人 on Yu-chong</title>
+    <link>/tags/%E4%B8%AA%E4%BA%BA/</link>
+    <description>Recent content in 个人 on Yu-chong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/%E4%B8%AA%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>我的学期交换经历</title>
+      <link>/blogs/exchange/</link>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/exchange/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

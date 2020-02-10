@@ -6,10 +6,73 @@
     <description>Recent content in Tags on Yu-chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>mac</title>
+      <link>/tags/mac/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>工具</title>
+      <link>/tags/%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>推荐</title>
+      <link>/tags/%E6%8E%A8%E8%8D%90/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E6%8E%A8%E8%8D%90/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A-share</title>
+      <link>/tags/a-share/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/a-share/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>investment</title>
+      <link>/tags/investment/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/investment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VBA</title>
+      <link>/tags/vba/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/vba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>指南</title>
+      <link>/tags/%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E6%8C%87%E5%8D%97/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Factor Analysis</title>
@@ -57,20 +120,20 @@
     </item>
     
     <item>
-      <title>personal</title>
-      <link>/tags/personal/</link>
+      <title>个人</title>
+      <link>/tags/%E4%B8%AA%E4%BA%BA/</link>
       <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/personal/</guid>
+      <guid>/tags/%E4%B8%AA%E4%BA%BA/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>university</title>
-      <link>/tags/university/</link>
+      <title>大学</title>
+      <link>/tags/%E5%A4%A7%E5%AD%A6/</link>
       <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/university/</guid>
+      <guid>/tags/%E5%A4%A7%E5%AD%A6/</guid>
       <description></description>
     </item>
     

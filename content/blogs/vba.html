@@ -1,0 +1,560 @@
+---
+title: "VBA简明指南"
+description: "VBA concise tutorial"
+author: 吴宇翀
+date: 2020-01-20
+categories: ["VBA", "指南"]
+tags: ["VBA", "指南"]
+output:
+  blogdown::html_page:
+    fig_caption: yes
+    number_sections: yes
+---
+
+
+
+<hr />
+<center>
+<p><a href="../../pdf/vba.pdf"><strong>PDF</strong></a></p>
+</center>
+<hr />
+<div style="page-break-after: always;"></div>
+<div id="前言" class="section level1">
+<h1><span class="header-section-number">1</span> 前言</h1>
+<p>本资料为笔者在工作期间为了解决实际工作问题而写的 MS office / WPS VBA的指南及查询手册，记录了工作常用的精华部分，并不涵盖所有内容。</p>
+<p>在笔者看来，VBA 只是一门工具而已，并没有必要花时间去钻研，只需在懂得基本语法的基础上，使用 VBA 内建的帮助和工具书，即可完成工作所需要的大部分内容。</p>
+<p>VBA 已经是一门不再更新的语言。尽管如此，笔者之所以推广 VBA，其重要原因便是在工作期间，笔者发现由于目前各岗位上大多数人都不具备较强的编程能力，绝大多数的企业仍然将 MS office / WPS 作为各部门及员工之间信息共享最主要的编辑和分享软件。尽管如今各大型企业拥有十分大型且专业的数据库和内部系统，Office 仍然是信息和资料储存、编辑、分享、呈现的最终途径。而 VBA 作为 office 的专用语言，在 office 办公上具有其它目前主流语言 <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> 有天然的优势。</p>
+<p>VBA 对于各大部门大多数员工的作用是十分巨大的：</p>
+<ul>
+<li>VBA 能完成任何 office 中键鼠的任何操作。</li>
+<li>使用 VBA 能将许多重复操作进行<strong>自动化</strong>，十分有效地缩短工作时间，且不易出错。</li>
+<li>相比普通点击操作，VBA 采用书写的方式，在熟练掌握后有更快的操作速度。</li>
+<li>VBA 内建于 Office, 无需安装，便于分享。</li>
+<li>VBA 能够写一些固定的通用模版，过程清晰且<strong>易于修改中间步骤</strong>。</li>
+<li>VBA 的即时窗口模式能够实现编程的同时内容更改可见，发挥了 office 所见即所得的优势。</li>
+<li>公式、函数、循环、判断十分清晰，避免在单元格中输入过长过复杂的公式。</li>
+<li>word、excel、ppt 可以联结使用。</li>
+</ul>
+<p>然而，凡事有利必有弊，VBA 尽管是一门相较于其它语言较为简单易掌握的语言，对于许多没有编程基础的人仍然有一定的上手难度。同时，由于大多数人已经习惯了键鼠点击操作；在使用初期，由于语法的不熟练，可能并没有感受到在速度上比键鼠点击操作更快。然而，一旦熟练，VBA 将是 Office 办公利器，能极大地提高工作效率，减少工作时间。</p>
+<p>祝工作顺利！</p>
+<div style="page-break-after: always;"></div>
+</div>
+<div id="快速上手" class="section level1">
+<h1><span class="header-section-number">2</span> 快速上手</h1>
+<ol style="list-style-type: decimal">
+<li><p>打开 Excel VBA 编辑器，工具条 <strong>工具</strong> <strong>宏</strong> <strong>VB编辑器</strong></p></li>
+<li><p><strong>插入</strong> <strong>模块</strong></p></li>
+<li><p>双击该模块后，<strong>插入</strong> <strong>过程</strong></p></li>
+<li><p>在脚本的两行之间写：</p></li>
+</ol>
+<pre class="r"><code>MsgBox &quot;测试&quot;</code></pre>
+<ol start="5" style="list-style-type: decimal">
+<li>点击 <strong>播放键</strong> 运行脚本</li>
+</ol>
+<div style="page-break-after: always;"></div>
+</div>
+<div id="重要操作" class="section level1">
+<h1><span class="header-section-number">3</span> 重要操作</h1>
+<div id="注释" class="section level2">
+<h2><span class="header-section-number">3.1</span> 注释</h2>
+<pre class="r"><code>使用 &#39; 进行注释或调试程序</code></pre>
+</div>
+<div id="工作表" class="section level2">
+<h2><span class="header-section-number">3.2</span> 工作表</h2>
+<pre class="r"><code>Worksheets(&quot;Sheet1&quot;).Range(&quot;A1&quot;)</code></pre>
+</div>
+<div id="单元格" class="section level2">
+<h2><span class="header-section-number">3.3</span> 单元格</h2>
+<pre class="r"><code>Cells(2, &quot;H&quot;).Value
+
+Range(&quot;A1:A100&quot;)</code></pre>
+<div id="复制粘贴" class="section level3">
+<h3><span class="header-section-number">3.3.1</span> 复制粘贴</h3>
+<pre class="r"><code>Range(&quot;A1:A8&quot;).Select
+Selection.Copy
+Range(&quot;C1&quot;).Select
+ActiveSheet.Pastes</code></pre>
+</div>
+</div>
+<div id="属性" class="section level2">
+<h2><span class="header-section-number">3.4</span> 属性</h2>
+<div id="字体字号及颜色" class="section level3">
+<h3><span class="header-section-number">3.4.1</span> 字体字号及颜色</h3>
+<pre class="r"><code>.Font.Size
+.Font.Bold
+.Font.ColorIndex
+.Font.Name</code></pre>
+</div>
+<div id="单元格颜色" class="section level3">
+<h3><span class="header-section-number">3.4.2</span> 单元格颜色</h3>
+<pre class="r"><code>Range(&quot;B1&quot;).Interior.Color = RGB(255,255,0)
+Range(&quot;B1&quot;).Interior.ColorIndex = 6</code></pre>
+</div>
+</div>
+<div id="创建变量" class="section level2">
+<h2><span class="header-section-number">3.5</span> 创建变量</h2>
+<pre class="r"><code>Dim 变量名 As 数据类型</code></pre>
+<ul>
+<li><p>变量名不能包括空格、句号等特殊符号，可以包括下划线。</p></li>
+<li><p><strong>Variant</strong> 型变量可以容纳任何类型</p></li>
+<li><p>Dim 可以替换为：Public(公有) Private(私有) Statics(静态) Const(常量)</p></li>
+</ul>
+</div>
+<div id="创建数组" class="section level2">
+<h2><span class="header-section-number">3.6</span> 创建数组</h2>
+<pre class="r"><code>Dim 数组名(1 To 50) As 数据类型
+数组名(1) = &quot;名1&quot;
+数组名(2) = &quot;名2&quot;
+......</code></pre>
+<ul>
+<li>多维数组 数组名(1,2,3,n)</li>
+</ul>
+</div>
+<div id="请求输入" class="section level2">
+<h2><span class="header-section-number">3.7</span> 请求输入</h2>
+<pre class="r"><code>Dim x As Variant
+x = InputBox(&quot;请输入：&quot;)</code></pre>
+</div>
+<div id="文件操作" class="section level2">
+<h2><span class="header-section-number">3.8</span> 文件操作</h2>
+<pre class="r"><code># 地址
+Dir[]
+
+# 删除文件
+Kill
+
+# 删除文件夹
+RmDir</code></pre>
+<p>还有一部分文件操作在 <em>Workbook 对象</em> 中</p>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div id="句法结构" class="section level1">
+<h1><span class="header-section-number">4</span> 句法结构</h1>
+<div id="循环" class="section level2">
+<h2><span class="header-section-number">4.1</span> 循环</h2>
+<div id="for-循环" class="section level3">
+<h3><span class="header-section-number">4.1.1</span> FOR 循环</h3>
+<pre class="r"><code>Dim i As Integer
+For i = 1 To 20 Step 1
+  ...
+  [Exit For]
+Next i</code></pre>
+<p>当需要跳出循环时使用 Exit For</p>
+</div>
+<div id="do-while-循环" class="section level3">
+<h3><span class="header-section-number">4.1.2</span> DO WHILE 循环</h3>
+<pre class="r"><code>Do [While ...]
+  ...
+  [Exit Do]
+Loop</code></pre>
+</div>
+<div id="do-until-循环" class="section level3">
+<h3><span class="header-section-number">4.1.3</span> DO UNTIL 循环</h3>
+<p>与 DO WHILE 循环 类似，但在 TRUE 时退出循环</p>
+</div>
+<div id="for-each-循环" class="section level3">
+<h3><span class="header-section-number">4.1.4</span> FOR EACH 循环</h3>
+<div id="工作表循环" class="section level4">
+<h4><span class="header-section-number">4.1.4.1</span> 工作表循环</h4>
+<pre class="r"><code>Dim sht As Worksheet, i As Integer
+i = 1
+For Each sht In Worksheets
+  Cells(i, &quot;A&quot;) = sht.Name
+  i = i + 1
+Next sht</code></pre>
+</div>
+<div id="单元格循环" class="section level4">
+<h4><span class="header-section-number">4.1.4.2</span> 单元格循环</h4>
+<pre class="r"><code>Dim c As Range, i As Integer
+i = 1
+For Each c In Range(&quot;A1:A100&quot;)</code></pre>
+</div>
+</div>
+<div id="常用循环" class="section level3">
+<h3><span class="header-section-number">4.1.5</span> 常用循环</h3>
+<pre class="r"><code>Dim i As Integer
+i = 1
+Do While Cells(i, &quot;H&quot;) &lt;&gt; &quot;&quot;</code></pre>
+</div>
+</div>
+<div id="判断" class="section level2">
+<h2><span class="header-section-number">4.2</span> 判断</h2>
+<p>写成条</p>
+<pre class="r"><code>If ... Then ... Else ...</code></pre>
+<p>写成块</p>
+<pre class="r"><code>If ... Then
+...
+Else If
+...
+Else
+...
+End If</code></pre>
+</div>
+<div id="选择" class="section level2">
+<h2><span class="header-section-number">4.3</span> 选择</h2>
+<pre class="r"><code>Select Case time
+  Case Is &lt; 0.5
+    ...
+  Case Is &gt; 0.5
+    ...
+  Case Else
+    ...
+End Select</code></pre>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div id="重要函数" class="section level1">
+<h1><span class="header-section-number">5</span> 重要函数</h1>
+<table>
+<thead>
+<tr class="header">
+<th align="left">函数</th>
+<th align="left">作用</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Split</td>
+<td align="left">字符串分割</td>
+</tr>
+<tr class="even">
+<td align="left">Join</td>
+<td align="left">字符串连接</td>
+</tr>
+<tr class="odd">
+<td align="left">Range</td>
+<td align="left">选择单元格</td>
+</tr>
+<tr class="even">
+<td align="left">UBound</td>
+<td align="left">最小索引</td>
+</tr>
+<tr class="odd">
+<td align="left">LBound</td>
+<td align="left">最大索引</td>
+</tr>
+<tr class="even">
+<td align="left">Time</td>
+<td align="left">系统时间</td>
+</tr>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+</div>
+<div id="语言基础" class="section level1">
+<h1><span class="header-section-number">6</span> 语言基础</h1>
+<div id="运算符" class="section level2">
+<h2><span class="header-section-number">6.1</span> 运算符</h2>
+<ol style="list-style-type: decimal">
+<li>赋值运算符 =</li>
+<li>数学运算符&amp;、+ (字符连接符)、+(加)、-(减)、Mod(取余)、\(整除)、*(乘)、/ (除)、-(负号)、^(指数)</li>
+<li>逻辑运算符 Not(非)、And(与)、Or(或)、Xor(异或)、Eqv(相等)、Imp(隐含)</li>
+<li>关系运算符 = (相同)、&lt;&gt;(不等)、&gt;(大于)、&lt;(小于)、&gt;=(不小于)、&lt;=(不大 于)、
+Like、Is</li>
+<li>位运算符 Not(逻辑非)、And(逻辑与)、Or(逻辑或)、Xor(逻辑异或)、Eqv(逻辑 等)、Imp(隐含)</li>
+</ol>
+</div>
+<div id="数据类型" class="section level2">
+<h2><span class="header-section-number">6.2</span> 数据类型</h2>
+<table>
+<caption><span id="tab:unnamed-chunk-21">Table 6.1: </span>数据类型</caption>
+<thead>
+<tr class="header">
+<th align="left">数据类型</th>
+<th align="left">代码</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">字符串型</td>
+<td align="left">String</td>
+</tr>
+<tr class="even">
+<td align="left">字节型</td>
+<td align="left">Byte</td>
+</tr>
+<tr class="odd">
+<td align="left">布尔型</td>
+<td align="left">Boolean</td>
+</tr>
+<tr class="even">
+<td align="left">整数型</td>
+<td align="left">Integer</td>
+</tr>
+<tr class="odd">
+<td align="left">长整数型</td>
+<td align="left">Long</td>
+</tr>
+<tr class="even">
+<td align="left">单精度型</td>
+<td align="left">Single</td>
+</tr>
+<tr class="odd">
+<td align="left">双精度型</td>
+<td align="left">Double</td>
+</tr>
+<tr class="even">
+<td align="left">日期型</td>
+<td align="left">Date</td>
+</tr>
+<tr class="odd">
+<td align="left">货币型</td>
+<td align="left">Currency</td>
+</tr>
+<tr class="even">
+<td align="left">小数点型</td>
+<td align="left">Decimal</td>
+</tr>
+<tr class="odd">
+<td align="left">变体型</td>
+<td align="left">Variant</td>
+</tr>
+<tr class="even">
+<td align="left">对象型</td>
+<td align="left">String</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="类型转换" class="section level2">
+<h2><span class="header-section-number">6.3</span> 类型转换</h2>
+<table>
+<caption><span id="tab:unnamed-chunk-22">Table 6.2: </span>类型转换</caption>
+<thead>
+<tr class="header">
+<th align="left">函数</th>
+<th align="left">转换为</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">CBool(expression)</td>
+<td align="left">转换为Boolean型</td>
+</tr>
+<tr class="even">
+<td align="left">CByte(expression)</td>
+<td align="left">转换为Byte型</td>
+</tr>
+<tr class="odd">
+<td align="left">CCur(expression)</td>
+<td align="left">转换为Currency型</td>
+</tr>
+<tr class="even">
+<td align="left">CDate(expression)</td>
+<td align="left">转换为Date型</td>
+</tr>
+<tr class="odd">
+<td align="left">CDbl(expression)</td>
+<td align="left">转换为Double型</td>
+</tr>
+<tr class="even">
+<td align="left">CDec(expression)</td>
+<td align="left">转换为Decemal型</td>
+</tr>
+<tr class="odd">
+<td align="left">CInt(expression)</td>
+<td align="left">转换为Integer型</td>
+</tr>
+<tr class="even">
+<td align="left">CLng(expression)</td>
+<td align="left">转换为Long型</td>
+</tr>
+<tr class="odd">
+<td align="left">CSng(expression)</td>
+<td align="left">转换为Single型</td>
+</tr>
+<tr class="even">
+<td align="left">CStr(expression)</td>
+<td align="left">转换为String型</td>
+</tr>
+<tr class="odd">
+<td align="left">CVar(expression)</td>
+<td align="left">转换为Variant型</td>
+</tr>
+<tr class="even">
+<td align="left">Val(string)</td>
+<td align="left">转换为数据型</td>
+</tr>
+<tr class="odd">
+<td align="left">Str(number)</td>
+<td align="left">转换为String</td>
+</tr>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div id="常用对象" class="section level1">
+<h1><span class="header-section-number">7</span> 常用对象</h1>
+<table>
+<thead>
+<tr class="header">
+<th align="center">对象</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Application</td>
+<td align="center">应用程序</td>
+</tr>
+<tr class="even">
+<td align="center">Workbook</td>
+<td align="center">工作簿</td>
+</tr>
+<tr class="odd">
+<td align="center">Worksheet</td>
+<td align="center">工作表</td>
+</tr>
+<tr class="even">
+<td align="center">Range</td>
+<td align="center">单元格</td>
+</tr>
+</tbody>
+</table>
+<p>使用 <strong>.</strong> 访问对象</p>
+<div id="application-对象" class="section level2">
+<h2><span class="header-section-number">7.1</span> Application 对象</h2>
+<div id="常用" class="section level3">
+<h3><span class="header-section-number">7.1.1</span> 常用</h3>
+<table>
+<caption><span id="tab:unnamed-chunk-23">Table 7.1: </span>Application的常用属性</caption>
+<thead>
+<tr class="header">
+<th align="left">属性</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">ActiveCell</td>
+<td align="left">当前活动单元格</td>
+</tr>
+<tr class="even">
+<td align="left">ActiveChart</td>
+<td align="left">当前活动工作簿中的活动图表</td>
+</tr>
+<tr class="odd">
+<td align="left">ActiveSheet</td>
+<td align="left">当前活动工作簿中的活动工作表</td>
+</tr>
+<tr class="even">
+<td align="left">ActiveWindow</td>
+<td align="left">当前活动窗口</td>
+</tr>
+<tr class="odd">
+<td align="left">ActiveWorkbook</td>
+<td align="left">当前活动工作簿</td>
+</tr>
+<tr class="even">
+<td align="left">Charts</td>
+<td align="left">当前活动工作簿中所有的图表工作表</td>
+</tr>
+<tr class="odd">
+<td align="left">Selection</td>
+<td align="left">当前活动工作簿中所有选中的对象</td>
+</tr>
+<tr class="even">
+<td align="left">Sheets</td>
+<td align="left">当前活动工作簿中所有Sheet对象，包括普通工作表、图表工作表</td>
+</tr>
+<tr class="odd">
+<td align="left">Worksheets</td>
+<td align="left">当前活动工作簿中的所有Worksheet对象（普通工作表）</td>
+</tr>
+<tr class="even">
+<td align="left">Workbooks</td>
+<td align="left">当前所有打开的工作簿”</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="application.selection" class="section level3">
+<h3><span class="header-section-number">7.1.2</span> Application.Selection</h3>
+<p>选中的内容</p>
+</div>
+<div id="application.screenupdating" class="section level3">
+<h3><span class="header-section-number">7.1.3</span> Application.ScreenUpdating</h3>
+<p>默认为 <em>FASLE</em>, 即全部执行后再显示在屏幕上</p>
+</div>
+<div id="application.displayalerts" class="section level3">
+<h3><span class="header-section-number">7.1.4</span> Application.DisplayAlerts</h3>
+<p>默认为 <em>TRUE</em>, 即执行过程中会显示警告信息</p>
+</div>
+<div id="application.worksheetfunction" class="section level3">
+<h3><span class="header-section-number">7.1.5</span> Application.WorksheetFunction</h3>
+<p>用来访问 Excel 中的函数, 如 CountIf <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+</div>
+</div>
+<div id="workbook-对象" class="section level2">
+<h2><span class="header-section-number">7.2</span> Workbook 对象</h2>
+<p>选择特定的工作簿:</p>
+<pre class="r"><code>Workbooks.Item(3)
+Workbooks(3)
+Workbooks(&quot;name.xls&quot;)</code></pre>
+<div id="workbooks-的操作" class="section level3">
+<h3><span class="header-section-number">7.2.1</span> Workbooks 的操作</h3>
+<pre class="r"><code>Workbooks.Add &quot;C:\file\name.xls&quot;
+Workbooks.Open &quot;C:\file\name.xls&quot;
+Workbooks(3).Save
+Workbooks(3).Activate
+Workbooks.SaveAs &quot;C:\file\name.xls&quot;
+Workbooks(3).Close [savechanges:=False]</code></pre>
+<p><em>savechanges:=True</em> 可以不弹出关闭提示窗口</p>
+</div>
+</div>
+<div id="worksheet-对象" class="section level2">
+<h2><span class="header-section-number">7.3</span> Worksheet 对象</h2>
+<p>选择特定的工作表:</p>
+<pre class="r"><code>Worksheets.Item(3)
+Worksheets(3)
+Worksheets(&quot;name.xls&quot;)</code></pre>
+<div id="worksheets-的操作" class="section level3">
+<h3><span class="header-section-number">7.3.1</span> Worksheets 的操作</h3>
+<pre class="r"><code>Worksheets.Add
+Worksheets.Add Count := 3
+Worksheets.Add before := Worksheets(1)
+Worksheets.Add after := Worksheets(1), Count := 4</code></pre>
+</div>
+</div>
+</div>
+<div id="快捷操作" class="section level1">
+<h1><span class="header-section-number">8</span> 快捷操作</h1>
+<div id="显示函数列表" class="section level2">
+<h2><span class="header-section-number">8.1</span> 显示函数列表</h2>
+<pre class="r"><code>vba.</code></pre>
+</div>
+<div id="录制宏" class="section level2">
+<h2><span class="header-section-number">8.2</span> 录制宏</h2>
+<p>遇到不知道如何写代码的情况，可以录制宏后查看语法。</p>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div id="高级操作" class="section level1">
+<h1><span class="header-section-number">9</span> 高级操作</h1>
+<div id="函数的编写" class="section level2">
+<h2><span class="header-section-number">9.1</span> 函数的编写</h2>
+<pre class="r"><code>Public Function Fun()
+  [Application.Volatile TRUE]
+  ...
+End Function</code></pre>
+<p><em>Application.Volatile TRUE</em> 用于强制工作表发生重算时，函数重算</p>
+</div>
+</div>
+<div id="获取帮助" class="section level1">
+<h1><span class="header-section-number">10</span> 获取帮助</h1>
+<p>在 <em>Excel VBA 编辑器</em> 中，可以使用自带的 <em>F1帮助</em> 进行查询需要的函数、属性、方法等。</p>
+<hr />
+<center>
+<p><a href="../../pdf/vba.pdf"><strong>下载PDF</strong></a></p>
+</center>
+<hr />
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Python, R<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>注意：VBA 中已有的函数不能再引用<a href="#fnref2" class="footnote-back">↩</a></p></li>
+</ol>
+</div>

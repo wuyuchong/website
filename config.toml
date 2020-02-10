@@ -58,18 +58,18 @@ name = "blogs"
 weight = 3
 
 [[menu.main]]
+URL = "investment"
+name = "investment"
+weight = 4
+
+[[menu.main]]
 URL = "tools"
 name = "Recommendation"
-weight = 4
+weight = 5
 
 [[menu.main]]
 URL = "contact"
 name = "contact"
-weight = 5
-
-[[menu.main]]
-URL = "https://www.wuyuchong.com"
-name = "中文"
 weight = 6
 
 # footer menu
@@ -115,15 +115,14 @@ enable = true
 
 ####################### banner #######################################
 [params.banner]
-bgImage = "images/banner/bg.png"
-
+bgImage = "images/banner/bg.jpg"
 
 ######################## call to action ###############################
 [params.cta]
 enable = true
-image = "images/construction.svg"
-title = "Under Construction"
-description = "Welcome to <br> www.yu-chong.com <br> This website has just been established and still under construction"
+image = "images/hi.svg"
+title = "Welcome"
+description = "www.yu-chong.com"
 [params.cta.button]
 enable = false
 
@@ -131,11 +130,11 @@ enable = false
 enable = true
 image = "images/chinese.svg"
 title = "中文"
-description = "www.wuyuchong.com <br> for the Chinese version"
+description = "wuyuchong.com <br> for the Chinese version"
 [params.cta2.button]
 enable = true
 label = "中文版"
-link = "https://www.wuyuchong.com"
+link = "https://wuyuchong.com"
 
 
 ############################## Social Site ##########################

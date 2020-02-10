@@ -1,0 +1,13 @@
+---
+title: "Domestic and Foreign Pork Prices & Shuanghui Development in China"
+description: pork price
+author: Yuchong Wu
+date: 2020-02-06
+categories: ["investment", "A-share"]
+tags: ["investment", "A-share"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+

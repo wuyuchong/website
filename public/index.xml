@@ -6,10 +6,50 @@
     <description>Recent content on Yu-chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mac工具推荐</title>
+      <link>/blogs/mac/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/mac/</guid>
+      <description>硬盘空间清理 软件用于扫描硬盘后，按顺序列出所有目录占用的空间大小，方便用户手动删除。
+ omnidisksweeper
+ 进入后，在 network 下，一般占用空间最大的那块硬盘为常用硬盘。
+ 在 users - (用户名) -library 下为各个应用的额外占用空间，可按实际情况删除。</description>
+    </item>
+    
+    <item>
+      <title>Domestic and Foreign Pork Prices &amp; Shuanghui Development in China</title>
+      <link>/investment/pig/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/investment/pig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intcomedical during the epidemic in China</title>
+      <link>/investment/intcomedical/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/investment/intcomedical/</guid>
+      <description>Background In the past few weeks, an epidemic broke out in China, and stocks with the concept of masks and medical-prevention skyrocketed.</description>
+    </item>
+    
+    <item>
+      <title>VBA简明指南</title>
+      <link>/blogs/vba/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/vba/</guid>
+      <description>PDF
+  1 前言 本资料为笔者在工作期间为了解决实际工作问题而写的 MS office / WPS VBA的指南及查询手册，记录了工作常用的精华部分，并不涵盖所有内容。</description>
+    </item>
     
     <item>
       <title>Factor Analysis for Anxiety</title>
@@ -32,12 +72,12 @@
     </item>
     
     <item>
-      <title>My exchange experience</title>
-      <link>/blogs/2019-12-07/</link>
+      <title>我的学期交换经历</title>
+      <link>/blogs/exchange/</link>
       <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/blogs/2019-12-07/</guid>
-      <description>sweden</description>
+      <guid>/blogs/exchange/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -93,6 +133,17 @@
       
       <guid>/special/girlfriend/</guid>
       <description> Valentine                           </description>
+    </item>
+    
+    <item>
+      <title>免责声明</title>
+      <link>/disclaimer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/disclaimer/</guid>
+      <description>本网站内容亦并非就任何个别投资者的特定投资目标、财务状况及个别需要而编制。投资者不应只按本网站內容进行投资。
+在作出任何投资决定前，投资者应考虑产品的特点、其本身的投资目标、可承受的风险程度及其他因素，并适当地寻求独立的财务及专业意见。
+本网站竭力提供准确而可靠的资料，但并不保证资料绝对无误，资料如有错漏，本网站概不负责。</description>
     </item>
     
   </channel>

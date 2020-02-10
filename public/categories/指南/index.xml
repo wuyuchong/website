@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>指南 on Yu-chong</title>
+    <link>/categories/%E6%8C%87%E5%8D%97/</link>
+    <description>Recent content in 指南 on Yu-chong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/%E6%8C%87%E5%8D%97/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VBA简明指南</title>
+      <link>/blogs/vba/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/vba/</guid>
+      <description>PDF
+  1 前言 本资料为笔者在工作期间为了解决实际工作问题而写的 MS office / WPS VBA的指南及查询手册，记录了工作常用的精华部分，并不涵盖所有内容。</description>
+    </item>
+    
+  </channel>
+</rss>

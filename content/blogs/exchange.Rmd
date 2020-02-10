@@ -1,0 +1,13 @@
+---
+title: "我的学期交换经历"
+description: "我的学期交换经历"
+author: 吴宇翀
+categories: ["个人", "大学"]
+tags: ["个人", "大学"]
+date: 2019-12-07
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+

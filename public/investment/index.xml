@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Investments on Yu-chong</title>
+    <link>/investment/</link>
+    <description>Recent content in Investments on Yu-chong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/investment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Domestic and Foreign Pork Prices &amp; Shuanghui Development in China</title>
+      <link>/investment/pig/</link>
+      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/investment/pig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intcomedical during the epidemic in China</title>
+      <link>/investment/intcomedical/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/investment/intcomedical/</guid>
+      <description>Background In the past few weeks, an epidemic broke out in China, and stocks with the concept of masks and medical-prevention skyrocketed.</description>
+    </item>
+    
+  </channel>
+</rss>

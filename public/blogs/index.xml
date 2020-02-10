@@ -6,18 +6,40 @@
     <description>Recent content in Blogs on Yu-chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blogs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My exchange experience</title>
-      <link>/blogs/2019-12-07/</link>
+      <title>Mac工具推荐</title>
+      <link>/blogs/mac/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/mac/</guid>
+      <description>硬盘空间清理 软件用于扫描硬盘后，按顺序列出所有目录占用的空间大小，方便用户手动删除。
+ omnidisksweeper
+ 进入后，在 network 下，一般占用空间最大的那块硬盘为常用硬盘。
+ 在 users - (用户名) -library 下为各个应用的额外占用空间，可按实际情况删除。</description>
+    </item>
+    
+    <item>
+      <title>VBA简明指南</title>
+      <link>/blogs/vba/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blogs/vba/</guid>
+      <description>PDF
+  1 前言 本资料为笔者在工作期间为了解决实际工作问题而写的 MS office / WPS VBA的指南及查询手册，记录了工作常用的精华部分，并不涵盖所有内容。</description>
+    </item>
+    
+    <item>
+      <title>我的学期交换经历</title>
+      <link>/blogs/exchange/</link>
       <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/blogs/2019-12-07/</guid>
-      <description>sweden</description>
+      <guid>/blogs/exchange/</guid>
+      <description></description>
     </item>
     
   </channel>
