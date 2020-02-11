@@ -1,6 +1,6 @@
 ---
 title: "Domestic and Foreign Pork Prices & Shuanghui Development in China"
-description: pork price
+description: Domestic and Foreign Pork Prices & Shuanghui Development in China
 author: Yuchong Wu
 date: 2020-02-06
 categories: ["investment", "A-share"]
@@ -11,3 +11,75 @@ tags: ["investment", "A-share"]
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Domestic and Foreign Hog Prices
+
+## Domestic Hog Price
+
+Domestic hog prices have continued to rise, with an increase of 6.22% in the recent 60 days. The reason is mainly affected by the swine epidemic and the new coronavirus. The impact of swine on small and medium-sized pig farms, especially on private self-employed, is huge, and the suspension of operations caused by the new coronavirus made it more difficult for large non-professional pig companies to withstand huge losses. This has also accelerated the specialization of the hog slaughtering industry.
+
+As far as supervision is concerned, the hygiene standards for hog slaughtering will be further improved and enforcement will be strengthened. In the future of professionalization and scale industry, the proportion of individual hog breeders will be further reduced.
+
+## Hog import
+
+According to the data of an international website ^[pig333.com] , the current Chinese pork price is 35.69 CNY / kg, while the US is 45.19 USD / cwt. After conversion, the American pig price is: (CNY / kg)
+
+```{r}
+45.19 / 45.359237 * 6.9724
+```
+
+```{r}
+(35.69-6.946386) / 6.946386
+```
+
+The difference is about four times as large.
+
+And in the recent Sino-US agreement, tariffs on pork have been reduced since January 1. ^[China Economic Net 2020-01-19] 
+
+According to data from Yahoo Finance ^[yahoo.com] , the current price of hogs futures due on April 20th in the international market has fallen sharply, showing that the price of hogs in the next two months is likely to continue to decline.
+
+However, not all pork suppliers are eligible for pork imports, the regulatory authorities have very few quotas for pork imports. And in fact, only a few companies are allowed to import.
+
+# Shuanghui Development
+
+## Slaughter Industry
+
+The hog slaughter industry accounts for more than 59% of Shuanghui's main income, and the rest is almost meat products.
+
+## Pork Imports
+
+The top supplier of Shuanghui Pork is overseas Rotex Co., Ltd., and they have been carrying on related party transactions. ^[The remaining suppliers and their shares have not been disclosed yet] In this way, Shuanghui can legally import pork. On July 30, 2019, the CSRC approved the company to issue 1.975 billion shares to Rotex Co., Ltd., which is, to some extent, equivalent to tacit approval of Shuanghui Group's import channel. ^[http://news.xinhua08.com/a/20190730/1873985.shtml]
+
+The company disclosed the estimated amount of related party transactions in 2020, of which the estimated amount of imported meat and other products from Rotex was 17.5 billion yuan, and the actual amount in 19 was 5.86 billion CNY. It was a significant year-on-year increase.
+
+## Shareholders
+
+For Rotex Co., Ltd., Goldman Sachs Strategic Investment (Asia) Co., Ltd. holds 51% of its shares, and CDH Shine Co., Ltd. holds 49% of its shares.
+
+For the shareholders of Shuanghui Development, the largest shareholder (52.28%) is Rotex Co., Ltd. The second shareholder is Hong Kong Securities Clearing Company Limited [Hong Kong Securities Clearing Company Limited is a wholly-owned subsidiary of the Hong Kong Stock Exchange and operates the Central Clearing and Settlement System in Hong Kong, which is an approved clearing institution] 
+
+It is particularly noteworthy that the fourth shareholder is Central Huijin Company, which is one of the two companies that manage the national USD foreign exchange investment), and the other major shareholders are the National Social Security Fund and major national insurance companies. Among all the A shares, Shuanghui is the one under the security of national capital, whose policy risk is extremely small.
+
+## Basic Financial Indicators
+
++ Dynamic P/E ratio of 19.446 and static P/E ratio of 20.80, while the industry median value is about 40, which is lower than the industry's P/E ratio.
++ Included in MSCI.
++ Profits have steadily increased over the past decade, but have not increased significantly in recent years.
++ Latest quarterly return on net assets is 28.12%, ranking 1/7 among peers. ^[Third industry classification: Food & Beverage-Food Processing-Meat Products] 
+
+# Conclusion
+
+**Shuanghui Development** has relatively good future development expectations and low investment risks.
+
+Based on this, a decision was made to open a long position at a reasonable point in technical analysis tomorrow (2020-02-07).
+
+***
+
+<center>
+
+The content of this website does not constitute any investment advice.
+
+[** View disclaimer **](../../disclaimer)
+
+</center>
+
+***
