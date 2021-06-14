@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Yu-chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A-share</title>
+      <link>/categories/a-share/</link>
+      <pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/a-share/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>investment</title>
+      <link>/categories/investment/</link>
+      <pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/investment/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>mac</title>
@@ -35,24 +53,6 @@
       <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/%E6%8E%A8%E8%8D%90/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A-share</title>
-      <link>/categories/a-share/</link>
-      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/a-share/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>investment</title>
-      <link>/categories/investment/</link>
-      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/investment/</guid>
       <description></description>
     </item>
     

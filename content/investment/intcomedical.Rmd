@@ -47,7 +47,7 @@ Based on this, a decision was made today (2020-02-05) to open a long position at
 
 The content of this website does not constitute any investment advice.
 
-[** View disclaimer **](../../disclaimer)
+[**View disclaimer**](../../disclaimer)
 
 </center>
 

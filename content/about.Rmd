@@ -34,7 +34,7 @@ Subject: Economic Statistics
 
 Minor: Finance
 
-+ Related courses: python programming, c and c++ programming, Advanced Business English, Finance, Civil and Commercial Law, macro and micro economics, accounting, probability and mathematical statistics, statistical computing, etc.
++ Courses: 1. Mathematics (mathematical analysis, advanced algebra, etc.) 2. Statistics (probability, mathematical statistics, time series, multivariate statistics, etc.) 3. Economics (macromicro, econometrics, accounting, civil and commercial law, accounting Studies, etc.) 4. Computing (python, c, c ++, statistical calculation, data mining, etc.)
 + Big Data analysis program: using the R language to deal with large data and  writing business reports.
 
 ### University of Michigan
@@ -65,7 +65,18 @@ Exchange Program for one semester
 
 <div align="right">Beijing, China</div>
 
-Industry Research and Data Analysis
++ Data arranging, exploration and visual analysis of listed companies in Beijing.
++ Write research reports of non-listed companies and industries, such as: "Research Report of Beijing Angrui Microelectronics Technology Co., Ltd.".
+
+### Industrial and Commercial Bank of China · Finance & Accounting Department
+
+<div align="right">Dec 2019 - Jan 2020</div>
+
+<div align="right">Guangdong, China</div>
+
++ Study the asset and liability management, customer management, risk control and other aspects of the banking industry and write business operation reports.
++ Write VBA scripts to automate workflow for the department.
++ Use SQL to extract financial and business data and use SAS to model and performing risks control for credit card.
 
 
 ## PROJECT
@@ -103,19 +114,27 @@ Minister of administration
 
 ### Skill
 
-word / excel/ ppt (proficient)
-
 R (proficient)
+
+python (proficient)
 
 Latex (proficient)
 
-Python (basic)
+word / excel/ ppt (proficient)
 
-C / C++ (basic)  
+VBA (proficient)
+
+SAS (basic)
+
+SQL (basic)
+
+C / C++ / C# (basic)  
 
 SPSS (basic)
 
 HTML (basic)
+
+Java (basic)
 
 ### Activities
 

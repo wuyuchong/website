@@ -3,8 +3,8 @@ baseURL = "https://www.yu-chong.com"
 languageCode = "en-us"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 # site title 
-title = "Yu-chong"
-description = "Personal Website of Yuchong Wu"
+title = "Yuchong Wu"
+description = "Central University of Finance and Economics"
 # theme
 theme = "northendlab-hugo"
 # post pagination
